@@ -1,0 +1,71 @@
+[general]
+name=One Click Thematic Map
+qgisMinimumVersion=3.0
+description=Create professional thematic/choropleth maps with advanced customization - Classification methods, Color schemes, Label styling, Statistics, and Legend generation
+version=2.1
+author=Prince
+email=sutharprince098@gmail.com
+about=Professional thematic mapping plugin with one-click generation and extensive customization options
+
+[about]
+description=This plugin generates thematic maps (choropleth maps) from vector layers with advanced features:
+    
+    ✨ CLASSIFICATION METHODS (5 types):
+    • Equal Intervals - Divides data range into equal-sized classes
+    • Quantiles - Each class contains equal number of features
+    • Natural Breaks (Jenks) - Optimized statistical breaks
+    • Pretty Breaks - Aesthetically pleasing round numbers
+    • Standard Deviation - Statistical distribution-based classes
+    
+    🎨 COLOR CUSTOMIZATION:
+    • 8 Pre-built color schemes (Blue, Red, Green, Rainbow, Purple, Heat, Orange)
+    • Custom color picker for min/max values
+    • Reverse color scheme option
+    • Smooth gradient generation between colors
+    
+    🖌️ MAP STYLING:
+    • Adjustable border color and width (0-5mm)
+    • Opacity/Transparency slider (0-100%)
+    • 2-15 classification classes
+    
+    📝 LABEL CUSTOMIZATION:
+    • Choose any field for labels (text or numeric)
+    • Font size control (6-32pt)
+    • Font color picker
+    • Background color picker
+    • Enable/Disable background buffer
+    
+    📊 STATISTICS & ANALYSIS:
+    • Real-time statistics display (Count, Min, Max, Mean, Median, Std Dev, Range)
+    • Auto-updates when field changes
+    
+    💾 EXPORT & SAVE:
+    • Save style presets as JSON
+    • Load previously saved styles
+    • Export layer style as QML format
+    • Auto-creates saved_styles folder
+    
+    🗺️ LEGEND GENERATION:
+    • Auto-generate legend in print layout
+    • Opens layout designer for adjustments
+    • Works with all classification methods
+    
+    Perfect for creating professional choropleth maps for presentations, reports, and publications!
+
+version=2.1
+author=Prince 
+homepage=https://sutharprin098.github.io/One-Click-Thematic-Map-Web/
+repository=https://sutharprin098.github.io/OneClick-Thematic-Map-file
+tracker=https://github.com/sutharprin098/one-click-thematic-map/issues
+category=Vector
+
+[changelog]
+2.1=Added Label Field Chooser, Font Size Control, Font/Background Color pickers, Statistics Display, and Legend Auto-Generate
+2.0=Added 5 Classification Methods, Color Customization (8 schemes + custom), Map Styling (border, opacity), and Export/Save (JSON, QML)
+1.0=First release - Basic thematic map generation with quantile classification
+
+# Icon path (relative to the plugin directory)
+icon=icon.png
+
+# Tags for Plugin Manager
+tags=thematic,map,choropleth,visualization,classification,statistics,gradient,legend,symbology,styling
